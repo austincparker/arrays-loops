@@ -55,3 +55,7 @@ const filterProperty = (array, property, value) => {
 }
 
 console.log(filterProperty(group3, "name", "Ruby"))
+
+const headingEl = document.querySelector('#heading');
+
+headingEl.innerHTML = "This is the new text";
